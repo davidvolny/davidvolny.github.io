@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering Free</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Catering Free</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Domů</a></li>
+          <li><a href="#">Nabídka</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Rezervace</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Vítejte v Catering Free</h2>
+        <p>Nabízíme kvalitní a chutné cateringové služby pro vaše akce</p>
+        <a href="#" class="btn">Zarezervujte si nyní</a>
+      </section>
+      <section class="nabidka">
+        <h2>Nabídka</h2>
+        <ul>
+          <li>
+            <img src="img/jidlo-1.jpg" alt="Jídlo 1">
+            <h3>Jídlo 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nulla sapien, sed iaculis felis ullamcorper a.</p>
+            <a href="#" class="btn">Rezervovat</a>
+          </li>
+          <li>
+            <img src="img/jidlo-2.jpg" alt="Jídlo 2">
+            <h3>Jídlo 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nulla sapien, sed iaculis felis ullamcorper a.</p>
+            <a href="#" class="btn">Rezervovat</a>
+          </li>
+          <li>
+            <img src="img/jidlo-3.jpg" alt="Jídlo 3">
+            <h3>Jídlo 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nulla sapien, sed iaculis felis ullamcorper a.</p>
+            <a href="#" class="btn">Rezervovat</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="kontakt">
+        <h3>Kontaktujte nás</h3>
+        <p>Adresa: ulice 123, město, PSČ</p>
+        <p>Telefon: +420 123 456 789</p>
+        <p>Email: info@cateringfree.cz</p>
+      </div>
+      <div class="sledujte-nas">
+        <h3>Sledujte nás</h3>
+        <ul>
+         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+       </div>
+     </footer>
+  </body>
+</html>
