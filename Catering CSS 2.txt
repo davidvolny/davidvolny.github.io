@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nabidka {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.nabidka h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.nabidka ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nabidka li {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  flex-basis: 30%;
+  list-style: none;
+}
+
+.nabidka img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.nabidka h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.nabidka p {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kontakt h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.kontakt p {
+  margin-bottom: 0.5rem;
+}
+
+.sledujte-nas h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sledujte-nas ul {
+  display: flex;
+  list-style: none;
+}
+
+.sledujte-nas li {
+  margin-right: 1rem;
+}
+
+.sledujte-nas i {
+  font-size: 2rem;
+}
